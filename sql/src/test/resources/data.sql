@@ -1,0 +1,14 @@
+INSERT INTO courses (course_name, course_description) values ('math', 'learn calculations');
+INSERT INTO courses (course_name, course_description) values ('biology', 'human being');
+INSERT INTO groups (group_name) values ('CY-37');
+INSERT INTO groups (group_name) values ('PM-34');
+INSERT INTO students (group_id, first_name, last_name) VALUES (1, 'Ricky', 'Guerrero');
+INSERT INTO students (group_id, first_name, last_name) VALUES (1, 'Ricky', 'Bolton');
+INSERT INTO students (group_id, first_name, last_name) VALUES (1, 'Ranulph', 'Bolton');
+INSERT INTO students (group_id, first_name, last_name) VALUES (2, 'Hayleigh', 'Byrd');
+INSERT INTO students (group_id, first_name, last_name) VALUES (2, 'Ranulph', 'Harris');
+INSERT INTO students_courses (student_id, course_id) VALUES (1, 1);
+INSERT INTO students_courses (student_id, course_id) VALUES (2, 1);
+INSERT INTO students_courses (student_id, course_id) VALUES (3, 1);
+INSERT INTO students_courses (student_id, course_id) VALUES (4, 2);
+INSERT INTO students_courses (student_id, course_id) VALUES (5, 2);
